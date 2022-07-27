@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Joan&family=Lobster&family=Playball&family=Tai+Heritage+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Joan&family=Lobster&family=Nunito+Sans:wght@200&family=Playball&family=Tai+Heritage+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: grey;
+    /* width: 20vw; */
+    font-family: 'Lobster', cursive;
+    height:100vh;
+    position:absolute;
+    transition: transform 0.3s ease-in;
+}
+/* .sidebar nav{
+    padding: 18px;
+
+} */
+.sidebar nav{
+    padding:72px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding:33px 0;
+
+}
+.contactform{
+    margin:0 188px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellowgreen; */
+    width:80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: greenyellow; */
+    height: 45vh;
+    width: 70vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.InformationaboutME{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 68px;
+    font-weight: 100;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.MoreAbout{
+ margin-top: 34px;
+    font-size:22px ;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color:white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor:pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.mypic img{
+    height:45vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Lobster', cursive;   
+}
+
+.contactform h1{
+    text-align: center;
+}
+.contactform  form div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 8px;
+    color:midnightblue;
+    margin: 0 5px;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.blogitem p{
+    margin: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.blogcontainer h1{
+    font-family: 'Nunito Sans', sans-serif;
+     margin: 23 px;
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+.intro h2{
+    font-family: 'Lobster', cursive;
+margin: 12px;
+}
+.intro p{
+    font-family: 'Edu SA Beginner', cursive;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display:flex;
+    align-items: center;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border:2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: rgb(255, 208, 0);
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.intro{
+    margin:10px 88px;
+}
+.cross{
+    margin-left: 263px;
+    margin-top:10px;
+}
+@media(max-width:862px){
+ .mypic{
+    display: none;
+ }   
+   .intro,.blogcontainer,.contactform{
+    margin: 8px;
+   } 
+
+}
