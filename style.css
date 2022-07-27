@@ -190,5 +190,8 @@ margin: 12px;
    .intro,.blogcontainer,.contactform{
     margin: 8px;
    } 
+   .Hello{
+    margin-top: 125px;
+   }
 
 }
