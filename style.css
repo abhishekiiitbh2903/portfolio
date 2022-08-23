@@ -22,6 +22,12 @@
     padding:72px;
     height: 100vh;
 }
+.social{
+    text-align: center;
+}
+.professional{
+    text-align: center;
+}
 .sidebar nav li{
     list-style:none;
     font-size: 30px;
@@ -92,6 +98,11 @@ cursor:pointer;
 
 .mypic img{
     height:45vh;
+    margin-left: 30px;
+}
+.mypic2 img{
+    height:45vh;
+    margin-left: 30px;
 }
 
 .contactform{
@@ -183,10 +194,113 @@ margin: 12px;
     margin-left: 263px;
     margin-top:10px;
 }
+#services{
+    margin:34px;
+    display:flex;
+}
+#services .box{
+    border:2px solid red;
+    padding:34px;
+    margin:3px 55px;
+    border-radius: 21px;
+    background-color: rgb(243, 235, 235);
+}
+#services .box img{
+    height:144px;
+    display:block;
+    margin:auto;
+}
+.h-secondary{
+    font-size:25px;
+}
+#services1{
+    margin:34px;
+    display:flex;
+}
+#services1 .box{
+    border:2px solid rgb(133, 119, 119);
+    padding:34px;
+    margin:3px 55px;
+    border-radius: 21px;
+    background-color: rgb(125, 211, 151);
+}
+#services1 .box img{
+    height:144px;
+    display:block;
+    margin:auto;
+}
+#services1 .box img:hover{
+    transform:scale(1.2);
+}
+#services2{
+    margin:34px;
+    display:flex;
+}
+#services2 .box{
+    border:2px solid rgb(133, 119, 119);
+    padding:34px;
+    margin:3px 55px;
+    border-radius: 21px;
+    background-color: rgb(125, 211, 151);
+}
+#services2 .box img{
+    height:144px;
+    display:block;
+    margin:auto;
+}
+#services2 .box img:hover{
+    transform:scale(1.2);
+}
+.h-secondary{
+    font-size:25px;
+}
+.centerhoja{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding:5px 23px;
+    margin-top: auto;;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
 @media(max-width:862px){
  .mypic{
     display: none;
  }   
+ .mypic2{
+    margin-top: 162px;
+ }
+ #services{
+    flex-direction: column;
+}
+ #services1{
+    flex-direction: column;
+}
+ #services2{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+#services1 .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+#services2 .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+ 
    .intro,.blogcontainer,.contactform{
     margin: 8px;
    } 
@@ -194,4 +308,9 @@ margin: 12px;
     margin-top: 125px;
    }
 
+}
+@media(min-width:863px) {
+    .mypic2{
+        display:none;
+    }
 }
