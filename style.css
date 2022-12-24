@@ -102,7 +102,6 @@ cursor:pointer;
 }
 .mypic2 img{
     height:45vh;
-    margin-left: -13px;
 }
 
 .contactform{
@@ -274,7 +273,7 @@ body{
  }   
  .mypic2{
     margin-top: 162px;
-    margin-left: 0px;
+   
  }
  #services{
     flex-direction: column;
