@@ -274,6 +274,7 @@ body{
  }   
  .mypic2{
     margin-top: 162px;
+    margin-left: 0px;
  }
  #services{
     flex-direction: column;
